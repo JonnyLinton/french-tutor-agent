@@ -20,11 +20,12 @@ A simple exploration into OpenAI's speech-to-speech API, with the end goal that 
 > docker run --env-file=.env french-tutor-agent
 
 ### Possible features/tasks
-- [x] Basic repo setup / openapi auth
-- [ ] speech to speech agent
+- [x] basic repo setup / openapi auth
+- [x] basic voice agent call and response (one reply/response)
+- [ ] chained voice agent (voice -> text -> text -> voice) continuous (conversation)
 - [ ] prompt engineering the agent for better interactions (speak slow, quebecois accent, teach me new words, etc.)
-- [ ] handoff agents?
+- [x] handoff agents
 - [ ] basic react UI for better UX
-- [x] dockerize it
+- [ ] TASK: give docker access to sound card
 - [ ] can I use it on mobile?
 - [ ] more agentic system: everytime I ask what a word means, add to it a flashcard set
