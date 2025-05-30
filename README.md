@@ -7,14 +7,16 @@ A simple exploration into OpenAI's speech-to-speech API, with the end goal that 
 * OpenAPI API key in the `OPENAI_API_KEY` env var
 
 ## Installation
-
-1. > uv venv
-
-2. > uv pip install
+> uv venv
+> 
+> source .venv/bin/activate
+> 
+> uv pip install
 
 ## Docker
 
 > docker build -t french-tutor-agent .
+> 
 > docker run --env-file=.env french-tutor-agent
 
 ### Possible features/tasks
@@ -25,3 +27,4 @@ A simple exploration into OpenAI's speech-to-speech API, with the end goal that 
 - [ ] basic react UI for better UX
 - [x] dockerize it
 - [ ] can I use it on mobile?
+- [ ] more agentic system: everytime I ask what a word means, add to it a flashcard set
