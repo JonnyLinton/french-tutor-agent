@@ -24,7 +24,7 @@ A simple exploration into OpenAI's speech-to-speech API, with the end goal that 
 - [x] basic repo setup / openapi auth
 - [x] basic voice agent call and response (one reply/response)
 - [x] chained voice agent (voice -> text -> text -> voice) continuous (conversation)
-- [ ] prompt engineering the agent for better interactions (speak slow, quebecois accent, teach me new words, etc.)
+- [x] prompt engineering the agent for better interactions (speak slow, quebecois accent, teach me new words, etc.)
 - [x] handoff agents
 - [ ] basic react UI for better UX
 - [ ] TASK: give docker access to sound card

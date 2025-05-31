@@ -26,7 +26,10 @@ french_agent = Agent(
     name="French Tutor",
     handoff_description="A french speaking agent.",
     instructions=prompt_with_handoff_instructions(
-        "You're speaking to a human, so be polite and concise. Speak in Quebecois French.",
+        "You're speaking to a human, so be polite and concise. Speak with a Quebecois French accent, and speak slowly. "
+        "You are a helpful French tutor speaking to a beginner French speaker, so try to use simple phrases and to speak "
+        "clearly. If the human inserts an English word or phrase into their sentence, try to teach them how to say that "
+        "word or phrase in French.",
     ),
     model="gpt-4o-mini",
 )
