@@ -11,6 +11,7 @@ def _record_audio(screen: curses.window) -> npt.NDArray[np.float32]:
     screen.clear()
     screen.addstr(
         "Press <spacebar> to start recording. Press <spacebar> again to stop recording.\n"
+        "Press CTRL-C to exit"
     )
     screen.refresh()
 

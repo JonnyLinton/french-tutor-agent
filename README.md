@@ -14,6 +14,7 @@ A simple exploration into OpenAI's speech-to-speech API, with the end goal that 
 > uv pip install
 
 ## Docker
+*(not currently working, see TODO below)*
 
 > docker build -t french-tutor-agent .
 > 
@@ -22,7 +23,7 @@ A simple exploration into OpenAI's speech-to-speech API, with the end goal that 
 ### Possible features/tasks
 - [x] basic repo setup / openapi auth
 - [x] basic voice agent call and response (one reply/response)
-- [ ] chained voice agent (voice -> text -> text -> voice) continuous (conversation)
+- [x] chained voice agent (voice -> text -> text -> voice) continuous (conversation)
 - [ ] prompt engineering the agent for better interactions (speak slow, quebecois accent, teach me new words, etc.)
 - [x] handoff agents
 - [ ] basic react UI for better UX

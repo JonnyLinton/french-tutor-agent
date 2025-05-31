@@ -19,6 +19,7 @@ RUN uv pip install numpy
 RUN apt install -y libportaudio2
 
 # TODO: give docker access to the soundcard (currently this Dockerfile doesn't work)
+#   (https://stackoverflow.com/questions/40136606/how-to-expose-audio-from-docker-container-to-a-mac)
 
 # Copy the project files
 ADD . /app
